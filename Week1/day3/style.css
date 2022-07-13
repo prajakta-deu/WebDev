@@ -1,0 +1,22 @@
+body{
+    background-image: url("abc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+    color: rgb(245, 146, 16);
+}
+#name
+{
+    color: brown;
+}
+@media(min-width:568px){
+    #name{
+        color: chartreuse;
+    }
+}
+.temp{
+    height: 200px;
+    background-color: aliceblue;
+    margin: 70px;
+}
